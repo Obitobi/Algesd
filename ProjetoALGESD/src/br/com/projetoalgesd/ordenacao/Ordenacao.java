@@ -51,7 +51,12 @@ public class Ordenacao {
 		}
 		return vetor;
 	}
-	// para ordenar por quantidade 
+	// para ordenar por quantidade
+	/**
+	 * Ordena o vetor pelo valor de quantidade das mercadorias
+	 * @param 
+	 * @return   
+	 */
 	public static double[] merge(double[] vetor) {
 		double vetorAuxiliar[] = new double[vetor.length];
 		return merge(vetor, 0, vetor.length - 1, vetorAuxiliar);
